@@ -1,0 +1,104 @@
+.bg-dark {
+  background-color: #053850 !important;
+}
+
+/* Set the colour of the navbar toggler */
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 98, 204)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-dark .navbar-toggler {
+  color: rgba(245, 239, 239, 0.5);
+  border-color: #fff;
+  border-radius: 5px;
+}
+
+/* style navbar brand */
+
+.navbar-dark .navbar-brand {
+  color: rgb(246, 244, 250);
+  background-color: rgb(0, 98, 204);
+  padding: 10px;
+  border: thin;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+/* btton styling */
+
+.btn {
+  background-color: rgba(0, 98, 204, 1);
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.btn-outline-success {
+  color: #f4f7f5;
+  border-color: #f2f5f3;
+}
+
+.btn-outline-success:hover {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.hero {
+  /* Sizing */
+  width: 100vw;
+  height: 100vh;
+
+  /* Flexbox stuff */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Text styles */
+  text-align: center;
+
+  /* Background styles */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/Ms1Hero.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero h1 {
+  /* Text styles */
+  font-size: 5em;
+  color: #fff;
+}
+
+.hero .btn {
+  background-color: rgba(0, 98, 204, 1);
+  color: #fff;
+  border-color: #fff;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.hero .btn:hover {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.hero h2 {
+  /* Text styles */
+
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding-bottom: 20px;
+}

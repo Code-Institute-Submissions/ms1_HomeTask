@@ -136,13 +136,18 @@ hr {
 /* Reviews styling */
 
 .reviews {
-    background-color: rgb(0, 191, 255);
+    background-color: rgb(239, 245, 247);
     text-align: center;
-     color: #fff;
+     color: black;
 }
 
 .reviews h2 {
     padding-bottom: 0;
+    color: black;
+}
+
+.reviews hr {
+    background-color: black;
 }
 
 
@@ -217,6 +222,8 @@ img {
     padding-bottom: 5px;
 }
 
+
+
 .pricing-section h2 {
     padding-bottom: 0;
 }
@@ -248,5 +255,52 @@ img {
 
 }
 
+/* contact.html specific styling starts here */
+
+.contact {
+    text-align: center;
+    padding-top: 5px;
+    height: 100vh;
+}
+
+.contact button {
+    margin-top: 15px;
+}
+
+
+/* about.html specific styling starts here */
+
+
+.about-section {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+    height: 100vh;
+
+}
+
+.about-wrapper {
+ background-color: #fff;
+ margin: 0;
+ padding: 0;
+}
+
+
+.about-section h2 {
+    padding-bottom: 0;
+    color: black;
+}
+
+
+.about {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.about hr {
+    background-color: black;
+}
 
 

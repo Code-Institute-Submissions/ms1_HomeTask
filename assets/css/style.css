@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /* General styling starts here */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap: 100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
@@ -35,7 +42,7 @@ hr {
     
 }
 
-/* btton styling */
+/* botton styling */
 
 .btn {
   background-color: rgba(0, 98, 204, 1);
@@ -79,6 +86,8 @@ hr {
 }
 
 .footer-nav {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     padding: 0;
     margin: 0;
@@ -114,10 +123,20 @@ hr {
 .hero {
   width: 100vw;
   height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))),
+    url(../images/Ms1Hero.jpg);
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/Ms1Hero.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../images/Ms1Hero.jpg);
   background-size: cover;
@@ -171,7 +190,8 @@ hr {
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.25);
   border-radius: 3px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
   margin-bottom: 40px;
   padding: 10px;
   
@@ -242,7 +262,8 @@ img {
     background-color: #fff;
     border: 1px solid rgba(0, 0, 0, 0.25);
     border-radius: 3px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 40px;
     padding: 10px;
   
@@ -305,5 +326,4 @@ img {
 .about hr {
     background-color: black;
 }
-
 

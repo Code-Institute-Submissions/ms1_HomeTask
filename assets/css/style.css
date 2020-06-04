@@ -1,10 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
 /* General styling starts here */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap: 100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
@@ -42,7 +35,7 @@ hr {
     
 }
 
-/* botton styling */
+/* btton styling */
 
 .btn {
   background-color: rgba(0, 98, 204, 1);
@@ -86,8 +79,6 @@ hr {
 }
 
 .footer-nav {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
     padding: 0;
     margin: 0;
@@ -190,8 +181,7 @@ hr {
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.25);
   border-radius: 3px;
-  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
   margin-bottom: 40px;
   padding: 10px;
   
@@ -262,8 +252,7 @@ img {
     background-color: #fff;
     border: 1px solid rgba(0, 0, 0, 0.25);
     border-radius: 3px;
-    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 40px;
     padding: 10px;
   
@@ -326,4 +315,6 @@ img {
 .about hr {
     background-color: black;
 }
+
+
 

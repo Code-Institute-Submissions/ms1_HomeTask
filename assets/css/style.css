@@ -30,21 +30,27 @@ h6 {
   color: #fff;
 }
 
+.section-heading {
+  padding-top: 15px;
+  color: black;
+  text-shadow: 2px 2px 1px rgb(185, 167, 168);
+}
+
 /* line divider styling */
 
 hr {
   width: 80%;
   height: 1px;
-  background-color: #fff;
+  background-color: black;
   border: 0;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 5px;
+  margin-bottom: 30px;
 }
 
 /* btton styling */
 
 .btn {
-  background-color: rgba(0, 98, 204, 1);
+  background-color: rgb(78, 54, 57);
   color: #fff;
   border-color: #fff;
   font-weight: bold;
@@ -73,6 +79,12 @@ hr {
   font-weight: bold;
 }
 
+.navbar {
+  margin-bottom: 0;
+  border: 0;
+  width: 100%;
+}
+
 /* Footer styling */
 
 .footer-section {
@@ -93,11 +105,17 @@ hr {
 .footer-nav-item {
   list-style: none;
   margin-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 5px;
 }
 
 .footer-nav-link {
   text-decoration: none;
   color: #fff;
+}
+
+.footer hr {
+  background-color: #fff;
 }
 
 .footer-nav-link:hover {
@@ -107,7 +125,13 @@ hr {
 .copyright {
   font-style: italic;
   font-size: smaller;
-  margin: 0;
+  margin-bottom: 15px;
+}
+
+.warning {
+  font-style: italic;
+  font-size: x-small;
+  margin-bottom: 15px;
 }
 
 /* index.html specific styling starts here */
@@ -147,26 +171,13 @@ hr {
   -o-background-size: cover;
 }
 
-.hero h1 {
-  font-size: 5em;
-}
-
 /* Reviews styling */
 
 .reviews-wrapper {
   background-color: #fff;
   text-align: center;
-  color: black;
+  -webkit-box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
   box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
-}
-
-.reviews h2 {
-  padding-bottom: 0;
-  color: black;
-}
-
-.reviews hr {
-  background-color: black;
 }
 
 /* services.html specific styling starts here */
@@ -174,11 +185,8 @@ hr {
 .services-section {
   background-color: #fff;
   text-align: center;
-}
-
-.services {
-  padding-top: 5px;
-  padding-bottom: 5px;
+  -webkit-box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
+  box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
 }
 
 .service {
@@ -191,20 +199,12 @@ hr {
   padding: 10px;
 }
 
-.services h2 {
-  padding-bottom: 0;
+.service-heading {
   color: black;
-  text-shadow: 2px 2px 1px rgb(185, 167, 168);
+  padding-bottom: 15px;
   padding-top: 15px;
 }
 
-.services hr {
-  background-color: black;
-}
-
-.service h3 {
-  color: black;
-}
 .service p {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -233,19 +233,11 @@ img {
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
+  -webkit-box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
+  box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
 }
 
-.pricing-section h2 {
-  padding-bottom: 0;
-  padding-top: 15px;
-  color: black;
-  text-shadow: 2px 2px 1px rgb(185, 167, 168);
-}
-
-.pricing-section hr {
-    background-color: black;
-}
-
+/* Inspired by Bootstrap cards  */
 .card-title {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -280,30 +272,18 @@ img {
   padding-top: 5px;
   height: 100vh;
   background-color: #fff;
-   -webkit-box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
+  -webkit-box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
   box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
-}
-
-.contact-heading {
-  color: black;
-  text-align: center;
-  padding-top: 15px;
-  text-shadow: 2px 2px 1px rgb(185, 167, 168);
 }
 
 .contact button {
   margin-top: 15px;
-}
-
-.contact hr {
-    background-color: black;
-    margin-top: 0;
-
+  margin-bottom: 15px;
 }
 
 .contact form {
-    padding-top: 15px;
-       -webkit-box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
+  padding-top: 15px;
+  -webkit-box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
   box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
 }
 
@@ -316,18 +296,6 @@ img {
   margin: 0;
   height: 100vh;
   background-color: #fff;
-   -webkit-box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
+  -webkit-box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
   box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
-}
-
-
-.about-section h2 {
-  padding-bottom: 0;
-  color: black;
-  padding-top: 15px;
-  text-shadow: 2px 2px 1px rgb(185, 167, 168);
-}
-
-.about hr {
-  background-color: black;
 }

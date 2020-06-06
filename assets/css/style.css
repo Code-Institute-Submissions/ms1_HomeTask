@@ -7,13 +7,13 @@
 
 /* General styling starts here */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap: 100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap: 100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700");
 
 /* body  styling*/
 
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
 }
 
 /* headings styling */
@@ -33,13 +33,12 @@ h6 {
 /* line divider styling */
 
 hr {
-    width: 80%;
-    height: 1px;
-    background-color: #fff;
-    border: 0;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    
+  width: 80%;
+  height: 1px;
+  background-color: #fff;
+  border: 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 /* btton styling */
@@ -57,7 +56,6 @@ hr {
   background-color: #28a745;
   border-color: #28a745;
 }
-
 
 /* navbar styling */
 
@@ -77,45 +75,40 @@ hr {
 
 /* Footer styling */
 
- .footer-section {
-    background-color: #053850;
-    color: #fff;
-    padding-top: 15px;
-    text-align: center;
-    
+.footer-section {
+  background-color: #053850;
+  color: #fff;
+  padding-top: 15px;
+  text-align: center;
 }
 
 .footer-nav {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    padding: 0;
-    margin: 0;
-    
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 0;
+  margin: 0;
 }
 
 .footer-nav-item {
-    list-style: none;
-    margin-left: 15px;
-    
+  list-style: none;
+  margin-left: 15px;
 }
 
 .footer-nav-link {
-    text-decoration: none;
-    color: #fff;
-
+  text-decoration: none;
+  color: #fff;
 }
 
 .footer-nav-link:hover {
-     text-decoration: none;
-     color: rgba(255, 255, 255, 0.863);
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.863);
 }
 .copyright {
-    font-style: italic;
-    font-size: smaller;
-    margin: 0;
+  font-style: italic;
+  font-size: smaller;
+  margin: 0;
 }
-
 
 /* index.html specific styling starts here */
 
@@ -127,15 +120,21 @@ hr {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
   background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../images/Ms1Hero.jpg);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))),
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.5)),
+      to(rgba(0, 0, 0, 0.5))
+    ),
     url(../images/Ms1Hero.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../images/Ms1Hero.jpg);
@@ -154,184 +153,181 @@ hr {
 
 /* Reviews styling */
 
-.reviews {
-    background-color: rgb(239, 245, 247);
-    text-align: center;
-     color: black;
+.reviews-wrapper {
+  background-color: #fff;
+  text-align: center;
+  color: black;
+  box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
 }
 
 .reviews h2 {
-    padding-bottom: 0;
-    color: black;
+  padding-bottom: 0;
+  color: black;
 }
 
 .reviews hr {
-    background-color: black;
+  background-color: black;
 }
-
-
 
 /* services.html specific styling starts here */
 
 .services-section {
-    background-color: rgb(0, 98, 204);
-    text-align: center;
-    
-    
+  background-color: #fff;
+  text-align: center;
 }
 
 .services {
   padding-top: 5px;
   padding-bottom: 5px;
-  
 }
 
 .service {
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.25);
   border-radius: 3px;
-  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
+  box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
   margin-bottom: 40px;
   padding: 10px;
-  
-
 }
 
 .services h2 {
-    padding-bottom: 0;
+  padding-bottom: 0;
+  color: black;
+  text-shadow: 2px 2px 1px rgb(185, 167, 168);
+  padding-top: 15px;
+}
+
+.services hr {
+  background-color: black;
 }
 
 .service h3 {
-    color: black;
+  color: black;
 }
 .service p {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    
-
-    
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .service-lists a {
-    text-decoration: none;
-    color: greenyellow;
-    
-
+  text-decoration: none;
+  color: greenyellow;
 }
 
 .service-lists a:hover {
-    color: #fff;
+  color: #fff;
 }
 
 img {
-    vertical-align: middle;
-    border-style: none;
+  vertical-align: middle;
+  border-style: none;
 }
-
 
 /* pricing.html specific styling starts here */
 
-
 .pricing-section {
-    background-color: rgb(0, 98, 204);
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
+  background-color: #fff;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
-
-
 
 .pricing-section h2 {
-    padding-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 15px;
+  color: black;
+  text-shadow: 2px 2px 1px rgb(185, 167, 168);
 }
 
+.pricing-section hr {
+    background-color: black;
+}
 
 .card-title {
-    background-color: rgb(0, 191, 255);
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin: 0;
-    color: black;
-
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0;
+  color: black;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  -webkit-box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
+  box-shadow: 0 5px 5px 2px gray inset;
 }
 
 .card {
-    background-color: #fff;
-    border: 1px solid rgba(0, 0, 0, 0.25);
-    border-radius: 3px;
-    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    margin-bottom: 40px;
-    padding: 10px;
-  
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  -webkit-box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
+  box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
+  margin-bottom: 40px;
+  padding: 10px;
 }
 
 .item-price {
-    color: black;
-    padding-top: 15px;
-    padding-bottom: 15px;
-
+  color: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 /* contact.html specific styling starts here */
 
 .contact {
-    text-align: center;
-    padding-top: 5px;
-    height: 100vh;
-    background-color: rgb(239, 245, 247);
+  text-align: center;
+  padding-top: 5px;
+  height: 100vh;
+  background-color: #fff;
+   -webkit-box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
+  box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
 }
 
 .contact-heading {
-    color: black;
-    text-align: center;
-    padding-top: 5px;
-
+  color: black;
+  text-align: center;
+  padding-top: 15px;
+  text-shadow: 2px 2px 1px rgb(185, 167, 168);
 }
 
 .contact button {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
+.contact hr {
+    background-color: black;
+    margin-top: 0;
+
+}
+
+.contact form {
+    padding-top: 15px;
+       -webkit-box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
+  box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
+}
 
 /* about.html specific styling starts here */
 
-
 .about-section {
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin: 0;
-    height: 100vh;
-
-}
-
-.about-wrapper {
- background-color: #fff;
- margin: 0;
- padding: 0;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0;
+  height: 100vh;
+  background-color: #fff;
+   -webkit-box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
+  box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
 }
 
 
 .about-section h2 {
-    padding-bottom: 0;
-    color: black;
-    
-}
-
-
-.about {
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(239, 245, 247)
+  padding-bottom: 0;
+  color: black;
+  padding-top: 15px;
+  text-shadow: 2px 2px 1px rgb(185, 167, 168);
 }
 
 .about hr {
-    background-color: black;
+  background-color: black;
 }
-
-

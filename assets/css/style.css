@@ -135,7 +135,7 @@ hr {
 
 .warning {
   font-style: italic;
-  font-size: x-small;
+  font-size: smaller;
   margin-bottom: 15px;
 }
 

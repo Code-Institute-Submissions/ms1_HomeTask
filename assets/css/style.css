@@ -202,6 +202,12 @@ hr {
   box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
 }
 
+.review p {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 1rem;
+}
+
 
 /* services.html specific styling starts here */
 
@@ -330,4 +336,6 @@ img {
   -webkit-box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
   box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
 }
+
+
 

@@ -1,18 +1,29 @@
 # Milesrone 1 Project: HomeTask
 
 
-One or two paragraphs providing an overview of your project.
+This is a project to mmark the completion of User Centric Frontend Development part of the Code Institute Full Stack Development diploma. For this project I have developed a websited for a fictional service company offereing home task related services such as gocery shopping, cooking, cleaning, ironing, gardening and dog walking.
 
-Essentially, this part is your sales pitch.
+This website enables customers to see the services offered by the company and to be able to request for a service.
  
 ## UX
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+This website is targeted at customers. It showcases the services being offered by the company. Customers will be able to see the services being offered by the company, they will see the prcing, and they will be able to contact the company for a quotation. 
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+## User stories
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+### As a user, customers will be able to:
+
+* See services provided by the company
+* See prices for each service
+* Request for a quotation
+* Contact the company
+* Read about the company
+
+## Wireframes
+My initiat plan waa a paper based sketch however, I made use of Balsamiq for the final mockups.
+
+### Mobile Wireframes:
+* [Home page](mobile.pdf)
 
 ## Features
 

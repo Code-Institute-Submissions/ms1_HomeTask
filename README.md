@@ -23,7 +23,7 @@ This website is targeted at customers. It showcases the services being offered b
 My initiat plan waa a paper based sketch however, I made use of Balsamiq for the final mockups.
 
 ### Mobile Wireframes:
-* [Home page](mobile.pdf)
+* [Home page](https://github.com/Tchucks/ms1_HomeTask/blob/master/assets/images/wireframe/Mobile-Home.pdf)
 
 ## Features
 

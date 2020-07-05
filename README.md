@@ -24,6 +24,7 @@ My initiat plan waa a paper based sketch however, I made use of Balsamiq for the
 
 ### Mobile Wireframes:
 * [Home page](https://github.com/Tchucks/ms1_HomeTask/blob/master/assets/images/wireframe/Mobile-Home.pdf)
+* [Services Page](https://github.com/Tchucks/ms1_HomeTask/blob/master/assets/images/wireframe/Mobile-Home.pdf)
 
 ## Features
 

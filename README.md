@@ -112,7 +112,7 @@ Am I Responsive web application was used to test for responsiveness in different
 
 1. I carried out responsiveness testing using Chrome DevTools as I was building the website, I also used the Am I responsive web application to test the responsiveness:
 
-![Responsive](assets/images/wireframe/Responsive.pgn)
+![Responsive](assets/wireframe/Responsive.pgn)
 Format: ![Alt Text](url)
 
 2. I tested all the web pages myself on the following browsers using Iphone 6 plus:

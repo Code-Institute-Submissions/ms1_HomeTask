@@ -26,21 +26,21 @@ My initial plan was a paper based sketch however, I made use of Balsamiq for the
 ### Mobile Wireframes:
 * [Home Page](assets/wireframe/Mobile-Home.pdf)
 
-* [Services Page](https://github.com/Tchucks/ms1_HomeTask/blob/master/assets/images/wireframe/Services_mobile.pdf)
+* [Services Page](assets/wireframe/Services_mobile.pdf)
 
-* [Pricing Page](https://github.com/Tchucks/ms1_HomeTask/blob/master/assets/images/wireframe/Pricing_mobile.pdf)
+* [Pricing Page](assets/wireframe/Pricing_mobile.pdf)
 
-* [Contact Page](https://github.com/Tchucks/ms1_HomeTask/blob/master/assets/images/wireframe/Contact_mobile.pdf)
+* [Contact Page](assets/wireframe/Contact_mobile.pdf)
 
-* [About Page](https://github.com/Tchucks/ms1_HomeTask/blob/master/assets/images/wireframe/About_mobile.pdf)
+* [About Page](assets/wireframe/About_mobile.pdf)
 
 ### Desktop Wireframes:
-* [Home page](https://github.com/Tchucks/ms1_HomeTask/blob/master/assets/images/wireframe/Home_desktop.pdf)
+* [Home page](assets/wireframe/Home_desktop.pdf)
 
-* [Services Page](https://github.com/Tchucks/ms1_HomeTask/blob/master/assets/images/wireframe/Services_desktop.pdf)
+* [Services Page](assets/wireframe/Services_desktop.pdf)
 
 ### Ipad Wireframe:
-* [Services page](https://github.com/Tchucks/ms1_HomeTask/blob/master/assets/images/wireframe/Services_Ipad.pdf)
+* [Services page](assets/wireframe/Services_Ipad.pdf)
  
 
 ## Features
@@ -113,7 +113,7 @@ Am I Responsive web application was used to test for responsiveness in different
 1. I carried out responsiveness testing using Chrome DevTools as I was building the website, I also used the Am I responsive web application to test the responsiveness:
 
 ![](assets/images/responsive.png)
-Format: ![Alt Text](url)
+
 
 2. I tested all the web pages myself on the following browsers using Iphone 6 plus:
 * Safari

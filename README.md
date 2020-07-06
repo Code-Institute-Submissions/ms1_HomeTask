@@ -24,23 +24,23 @@ This website is targeted at customers. It showcases the services being offered b
 My initial plan was a paper based sketch however, I made use of Balsamiq for the final mock-ups.
 
 ### Mobile Wireframes:
-* [Home Page] (https://github.com/Tchucks/ms1_HomeTask/blob/master/assets/images/wireframe/Mobile-Home.pdf)
+* [Home Page](https://github.com/Tchucks/ms1_HomeTask/blob/master/assets/images/wireframe/Mobile-Home.pdf)
 
-* [Services Page] (https://github.com/Tchucks/ms1_HomeTask/blob/master/assets/images/wireframe/Services_mobile.pdf)
+* [Services Page](https://github.com/Tchucks/ms1_HomeTask/blob/master/assets/images/wireframe/Services_mobile.pdf)
 
-* [Pricing Page] (https://github.com/Tchucks/ms1_HomeTask/blob/master/assets/images/wireframe/Pricing_mobile.pdf)
+* [Pricing Page](https://github.com/Tchucks/ms1_HomeTask/blob/master/assets/images/wireframe/Pricing_mobile.pdf)
 
-* [Contact Page] (https://github.com/Tchucks/ms1_HomeTask/blob/master/assets/images/wireframe/Contact_mobile.pdf)
+* [Contact Page](https://github.com/Tchucks/ms1_HomeTask/blob/master/assets/images/wireframe/Contact_mobile.pdf)
 
-* [About Page] (https://github.com/Tchucks/ms1_HomeTask/blob/master/assets/images/wireframe/About_mobile.pdf)
+* [About Page](https://github.com/Tchucks/ms1_HomeTask/blob/master/assets/images/wireframe/About_mobile.pdf)
 
 ### Desktop Wireframes:
-* [Home page] (https://github.com/Tchucks/ms1_HomeTask/blob/master/assets/images/wireframe/Home_desktop.pdf)
+* [Home page](https://github.com/Tchucks/ms1_HomeTask/blob/master/assets/images/wireframe/Home_desktop.pdf)
 
-* [Services Page] (https://github.com/Tchucks/ms1_HomeTask/blob/master/assets/images/wireframe/Services_desktop.pdf)
+* [Services Page](https://github.com/Tchucks/ms1_HomeTask/blob/master/assets/images/wireframe/Services_desktop.pdf)
 
 ### Ipad Wireframe:
-* [Services page] (https://github.com/Tchucks/ms1_HomeTask/blob/master/assets/images/wireframe/Services_Ipad.pdf)
+* [Services page](https://github.com/Tchucks/ms1_HomeTask/blob/master/assets/images/wireframe/Services_Ipad.pdf)
  
 
 ## Features
@@ -62,48 +62,48 @@ In this section, you should go over the different parts of your project, and des
 
 ## Technologies Used
 
-### 1. [HTML] (https://html.com/)
+### 1. [HTML](https://html.com/)
 
 HTLM was used for the main structure of the website
 
-### 2. [CSS] (http://css.com/)
+### 2. [CSS](http://css.com/)
 
 CSS was used for the styling of the website
 
-### 3.  [Bootstrap] (https://getbootstrap.com/)
+### 3.  [Bootstrap](https://getbootstrap.com/)
 
 Bootstrap was used for responsiveness and a quick way of implementing sections such as the navbar, pricing and services pages.
 
 
-### 4. [Gitpod] (https://www.gitpod.io/)
+### 4. [Gitpod](https://www.gitpod.io/)
 
 Gitpod was used as the code editor for creating the website.
 
-### 5. [GIT] (https://git-scm.com/)
+### 5. [GIT](https://git-scm.com/)
 
 Git was used for version control
 
-### 6. [GitHub] (https://github.com/)
+### 6. [GitHub](https://github.com/)
 
 GitHub was used for publishing of the website.
 
-### 7. [Google Fonts] (https://fonts.google.com/)
+### 7. [Google Fonts](https://fonts.google.com/)
 
 Google fonts was used for font design
 
-### 8. [Font Awesome] (https://fontawesome.com/6?next=%2F)
+### 8. [Font Awesome](https://fontawesome.com/6?next=%2F)
 
 Font Awsome was used for icon 
 
-### 9. [Chrome DevTools] (https://developers.google.com/web/tools/chrome-devtools)
+### 9. [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
 
 Chrome DevTools was used for live tesing and editing
 
-### 10. [Balsamiq] (https://balsamiq.com/)
+### 10. [Balsamiq](https://balsamiq.com/)
 
 Balsamiq was used for creation of wireframes
 
-### 11. [Am I Responsive] (http://ami.responsivedesign.is/#)
+### 11. [Am I Responsive](http://ami.responsivedesign.is/#)
 
 Am I Responsive web application was used to test for responsiveness in different screen sizes.
 
@@ -112,7 +112,7 @@ Am I Responsive web application was used to test for responsiveness in different
 
 1. I carried out responsiveness testing using Chrome DevTools as I was building the website, I also used the Am I responsive web application to test the responsiveness:
 
-![Image of Am I responsive] (assets/images/wireframe/Responsive.pgn)
+![Responsive](assets/images/wireframe/Responsive.pgn)
 Format: ![Alt Text](url)
 
 2. I tested all the web pages myself on the following browsers using Iphone 6 plus:
@@ -144,7 +144,7 @@ For deployment of this project I made use of GitHub by taking the following step
 
 To clone the project locally on your computer, follow the following steps:
 
-1. Open the GitHub repository [HomeTask] (https://github.com/Tchucks/ms1_HomeTask)
+1. Open the GitHub repository [HomeTask](https://github.com/Tchucks/ms1_HomeTask)
 
 2. Click the dropdown on the Code button (green in color) and copy the project URL
 
@@ -157,14 +157,14 @@ To clone the project locally on your computer, follow the following steps:
 
 ### Content
 - Navbar inspiration came from [Bootstrap](https://getbootstrap.com/)
-- Hero image code and inspiration came from [Code The Web] (https://codetheweb.blog/2017/12/07/fullscreen-image-hero/)
+- Hero image code and inspiration came from [Code The Web](https://codetheweb.blog/2017/12/07/fullscreen-image-hero/)
 - https://www.w3.org/
-- All Photos copied from [Unsplash] (https://unsplash.com/)
-- Responsive check and screenshot from [am i responsive] (http://ami.responsivedesign.is/)
+- All Photos copied from [Unsplash](https://unsplash.com/)
+- Responsive check and screenshot from [am i responsive](http://ami.responsivedesign.is/)
 
 
 ### Media
-- The photos used in this site were obtained from [Unsplash] (https://unsplash.com/photos)
+- The photos used in this site were obtained from [Unsplash](https://unsplash.com/photos)
 
 ### Acknowledgements
 

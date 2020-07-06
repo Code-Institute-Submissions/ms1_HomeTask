@@ -110,22 +110,22 @@ Am I Responsive web application was used to test for responsiveness in different
 
 ## Testing
 
-### 1. I carried out responsiveness testing using Chrome DevTools as I was building the website, I also used the Am I responsive web application to test the responsiveness:
+1. I carried out responsiveness testing using Chrome DevTools as I was building the website, I also used the Am I responsive web application to test the responsiveness:
 
-![Image of Am I responsive]
-(https://github.com/Tchucks/ms1_HomeTask/blob/master/assets/images/wireframe/Responsive.pgn)
+![Image of Am I responsive] (assets/images/wireframe/Responsive.pgn)
+Format: ![Alt Text](url)
 
-### 2. I tested all the web pages myself on the following browsers using Iphone 6 plus:
+2. I tested all the web pages myself on the following browsers using Iphone 6 plus:
 * Safari
 * Chrome
 
-### 3. I also tested the web pages on the following brosers using a Macbookpro:
+3. I also tested the web pages on the following brosers using a Macbookpro:
 * Safari
 * Chrome
 
-### 4. I got my girlfriend to test the webpages using her Iphone 7 and Iphone XR
+4. I got my girlfriend to test the webpages using her Iphone 7 and Iphone XR
 
-### 5. For code validation, I used the following:
+5. For code validation, I used the following:
 * W3C HTML Validator - To validate my HTML codes
 * W3C CSS Validator - To validate my CSS codes
 
@@ -138,19 +138,19 @@ During the testing on a physical mobile phone, I found that the home page hero i
 
 For deployment of this project I made use of GitHub by taking the following steps:
 
-### 1. From my repositories in GitHub, I selected the project and clicked on settings
-### 2. Under the GitHub Pages Section of the settings, I selected master branch as the source
-### 3. On refresh of the page, the published url of the project appeared under GitHub Pages section of the settings.
+1. From my repositories in GitHub, I selected the project and clicked on settings
+2. Under the GitHub Pages Section of the settings, I selected master branch as the source
+3. On refresh of the page, the published url of the project appeared under GitHub Pages section of the settings.
 
 To clone the project locally on your computer, follow the following steps:
 
-### 1. Open the GitHub repository [HomeTask] (https://github.com/Tchucks/ms1_HomeTask)
+1. Open the GitHub repository [HomeTask] (https://github.com/Tchucks/ms1_HomeTask)
 
-### 2. Click the dropdown on the Code button (green in color) and copy the project URL
+2. Click the dropdown on the Code button (green in color) and copy the project URL
 
-### 3. From IDE of your choice, open Git Bash and type in git clone
+3. From IDE of your choice, open Git Bash and type in git clone
 
-### 4. Paste the project URL and press enter.
+4. Paste the project URL and press enter.
 
 
 ## Credits

@@ -24,7 +24,7 @@ This website is targeted at customers. It showcases the services being offered b
 My initial plan was a paper based sketch however, I made use of Balsamiq for the final mock-ups.
 
 ### Mobile Wireframes:
-* [Home Page](https://github.com/Tchucks/ms1_HomeTask/blob/master/assets/images/wireframe/Mobile-Home.pdf)
+* [Home Page](assets/wireframe/Mobile-Home.pdf)
 
 * [Services Page](https://github.com/Tchucks/ms1_HomeTask/blob/master/assets/images/wireframe/Services_mobile.pdf)
 
@@ -112,7 +112,7 @@ Am I Responsive web application was used to test for responsiveness in different
 
 1. I carried out responsiveness testing using Chrome DevTools as I was building the website, I also used the Am I responsive web application to test the responsiveness:
 
-![Responsive](assets/wireframe/Responsive.pgn)
+![](assets/images/responsive.png)
 Format: ![Alt Text](url)
 
 2. I tested all the web pages myself on the following browsers using Iphone 6 plus:

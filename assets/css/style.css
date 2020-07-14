@@ -322,7 +322,7 @@ img {
 }
 
 .contact form {
-  padding-top: 15px;
+  padding: 15px;
   -webkit-box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
   box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
 }

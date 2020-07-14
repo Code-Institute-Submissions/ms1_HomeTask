@@ -142,13 +142,15 @@ For deployment of this project I made use of GitHub by taking the following step
 2. Under the GitHub Pages Section of the settings, I selected master branch as the source
 3. On refresh of the page, the published url of the project appeared under GitHub Pages section of the settings.
 
+## Local Development
+
 To clone the project locally on your computer, follow the following steps:
 
 1. Open the GitHub repository [HomeTask](https://github.com/Tchucks/ms1_HomeTask)
 
 2. Click the dropdown on the Code button (green in color) and copy the project URL
 
-3. From IDE of your choice, open Git Bash and type in git clone
+3. From IDE of your choice, open the terminal and type in git clone
 
 4. Paste the project URL and press enter.
 

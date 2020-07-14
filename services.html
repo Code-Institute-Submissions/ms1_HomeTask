@@ -1,298 +1,284 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-  
-    <!-- metadata from https://www.w3schools.com/tags/tag_meta.asp -->
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="description" content="HomeTask Services">
-     <meta name="keywords" content="Grocery Shopping,Cooking,Cleaning,Ironing,Gardening,Dog Walking">
-     <meta name="author" content="T Chuck">
+<head>
 
-    <!-- Boilerplate from GitPod and bootstrap -->
+	<!-- metadata from https://www.w3schools.com/tags/tag_meta.asp -->
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<meta name="description" content="HomeTask Services" />
+	<meta name="keywords" content="Grocery Shopping,Cooking,Cleaning,Ironing,Gardening,Dog Walking" />
+	<meta name="author" content="T Chuck" />
 
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <!-- Custom CSS Link -->
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <title>HomeTask</title>
-  </head>
+	<!-- Boilerplate from GitPod and bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<!-- Custom CSS Link -->
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+	<title>HomeTask</title>
+</head>
 
-  <body>
-    <header>
-      <!-- Navbar inspiration from Bootstrap -->
-      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html">HomeTask</a>
+<body>
+	<header>
+		<!-- Navbar inspiration from Bootstrap -->
+		<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+			<a class="navbar-brand" href="index.html">HomeTask</a>
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+			<button
+			          class="navbar-toggler"
+			          type="button"
+			          data-toggle="collapse"
+			          data-target="#navbarSupportedContent"
+			          aria-controls="navbarSupportedContent"
+			          aria-expanded="false"
+			          aria-label="Toggle navigation"
+			        >
+			          <span class="navbar-toggler-icon"></span>
+			        </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
 
-            <li class="nav-item active">
-              <a class="nav-link" href="services.html"
-                >Services<span class="sr-only">(current)</span></a
-              >
-            </li>
+					<li class="nav-item active">
+						<a class="nav-link" href="services.html">Services<span class="sr-only">(current)</span></a>
+					</li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="pricing.html">Pricing</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Us</a>
-            </li>
-          </ul>
+					<li class="nav-item">
+						<a class="nav-link" href="pricing.html">Pricing</a>
+					</li>
 
-          <a href="contact.html" class="btn d-none d-md-block">
-            Get Quotation
-          </a>
-        </div>
-      </nav>
-    </header>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact Us</a>
+					</li>
+				</ul>
 
-    <!-- Main section starts here-->
-    <!-- All images copied from https://unsplash.com/s/photos Responsive image styling inspired by Bootstrap-->
+				<a href="contact.html" class="btn d-none d-md-block">
+					Get Quotation
+				</a>
+			</div>
+		</nav>
+	</header>
 
-    <div class="container-fluid services-section">
-      <section class="services">
-        <div class="row">
-          <div class="col-12">
-            <h2 class="section-heading">Our Services</h2>
-            <hr />
-          </div>
-        </div>
+	<!-- Main section starts here-->
+	<!-- All images copied from https://unsplash.com/s/photos Responsive image styling inspired by Bootstrap-->
 
-        <div class="row">
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="service">
-              <div class="row">
-                <div class="col">
-                  <h3 id="ironing" class="service-heading">Ironing</h3>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col">
-                  <img
+	<div class="container-fluid services-section">
+		<section class="services">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="section-heading">Our Services</h2>
+					<hr />
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-12 col-md-6 col-lg-4">
+					<div class="service">
+						<div class="row">
+							<div class="col">
+								<h3 id="ironing" class="service-heading">Ironing</h3>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<img
                     src="assets/images/ironing-min.jpg"
                     class="img-fluid img-responsive"
                     alt="ironing image"
                   />
                 </div>
-              </div>
-              <div class="row">
-                <div class="col">
-                  <p>
-                    We offer ironing services for all range of clothes such as
-                    shirts, trousers, dresses, children's clothes etc.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<p>
+										We offer ironing services for all range of clothes such as
+										shirts, trousers, dresses, children's clothes etc.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
 
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="service">
-              <div class="row">
-                <div class="col">
-                  <h3 id="cleaning" class="service-heading">Cleaning</h3>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col">
-                  <img
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="service">
+							<div class="row">
+								<div class="col">
+									<h3 id="cleaning" class="service-heading">Cleaning</h3>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<img
                     src="assets/images/cleaning-min.jpg"
                     class="img-fluid img-responsive"
                     alt="cleaning image"
                   />
                 </div>
-              </div>
-              <div class="row">
-                <div class="col">
-                  <p>
-                    We offer cleaning services for all sections of your home such as
-                    kitchen, living areas, bathrooms etc.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+								</div>
+								<div class="row">
+									<div class="col">
+										<p>
+											We offer cleaning services for all sections of your home such as
+											kitchen, living areas, bathrooms etc.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
 
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="service">
-              <div class="row">
-                <div class="col">
-                  <h3 id="groecery" class="service-heading">
-                    Grocery Shopping
-                  </h3>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col">
-                  <img
+						<div class="col-12 col-md-6 col-lg-4">
+							<div class="service">
+								<div class="row">
+									<div class="col">
+										<h3 id="groecery" class="service-heading">
+											Grocery Shopping
+										</h3>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+										<img
                     src="assets/images/groecery-min.jpg"
                     class="img-fluid img-responsive"
                     alt="groecery image"
                   />
                 </div>
-              </div>
-              <div class="row">
-                <div class="col">
-                  <p>
-                    We offer grocery shopping services from all major super
-                    markets and smaller shops across Ireland.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<p>
+												We offer grocery shopping services from all major super
+												markets and smaller shops across Ireland.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
 
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="service">
-              <div class="row">
-                <div class="col">
-                  <h3 id="gardening" class="service-heading">Gardening</h3>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col">
-                  <img
+							<div class="col-12 col-md-6 col-lg-4">
+								<div class="service">
+									<div class="row">
+										<div class="col">
+											<h3 id="gardening" class="service-heading">Gardening</h3>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<img
                     src="assets/images/gardening-min.jpg"
                     class="img-fluid img-responsive"
                     alt="gardening image"
                   />
                 </div>
-              </div>
-              <div class="row">
-                <div class="col">
-                  <p>
-                    We offer all range of gardening services such as
-                    landscaping, hedge cutting, flower planting etc.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+										</div>
+										<div class="row">
+											<div class="col">
+												<p>
+													We offer all range of gardening services such as
+													landscaping, hedge cutting, flower planting etc.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
 
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="service">
-              <div class="row">
-                <div class="col">
-                  <h3 id="cooking" class="service-heading">Cooking</h3>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col">
-                  <img
+								<div class="col-12 col-md-6 col-lg-4">
+									<div class="service">
+										<div class="row">
+											<div class="col">
+												<h3 id="cooking" class="service-heading">Cooking</h3>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col">
+												<img
                     src="assets/images/cooking-min.jpg"
                     class="img-fluid img-responsive"
                     alt="cooking image"
                   />
                 </div>
-              </div>
-              <div class="row">
-                <div class="col">
-                  <p>
-                    We offer cooking services for all types of meals including
-                    traditional and continental meals.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+											</div>
+											<div class="row">
+												<div class="col">
+													<p>
+														We offer cooking services for all types of meals including
+														traditional and continental meals.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
 
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="service">
-              <div class="row">
-                <div class="col">
-                  <h3 id="dog" class="service-heading">Dog Walking</h3>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col">
-                  <img
+									<div class="col-12 col-md-6 col-lg-4">
+										<div class="service">
+											<div class="row">
+												<div class="col">
+													<h3 id="dog" class="service-heading">Dog Walking</h3>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col">
+													<img
                     src="assets/images/dog-min.jpg"
                     class="img-fluid img-responsive"
                     alt="dog image"
                   />
                 </div>
-              </div>
-              <div class="row">
-                <div class="col">
-                  <p>
-                    We offer dog walking services for all breeds of dogs at
-                    anytime of the day.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
+												</div>
+												<div class="row">
+													<div class="col">
+														<p>
+															We offer dog walking services for all breeds of dogs at
+															anytime of the day.
+														</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+		</section>
+	</div>
 
-    <div class="container-fluid footer-section">
-      <div class="row">
-        <div class="col-12 footer">
-          <ul class="footer-nav">
-            <li class="footer-nav-item nav-item">
-              <a class="footer-nav-link" href="about.html">About</a>
-            </li>
-            <li class="footer-nav-item nav-item">
-              <a class="footer-nav-link" href="contact.html">Contact Us</a>
-            </li>
-          </ul>
-          <hr />
-        </div>
-        <div class="col-12">
-          <p class="copyright">
-            <i class="fa fa-copyright"></i> 2020 HomeTask | All
-            Rights Reserved.
-          </p>
-          <p class="warning">
-            This is a school project. Resemblance to any real business or person
-            is unintended.
-          </p>
-        </div>
-      </div>
-    </div>
+	<div class="container-fluid footer-section">
+		<div class="row">
+			<div class="col-12 footer">
+				<ul class="footer-nav">
+					<li class="footer-nav-item nav-item">
+						<a class="footer-nav-link" href="about.html">About</a>
+					</li>
+					<li class="footer-nav-item nav-item">
+						<a class="footer-nav-link" href="contact.html">Contact Us</a>
+					</li>
+				</ul>
+				<hr />
+			</div>
+			<div class="col-12">
+				<p class="copyright">
+					<i class="fa fa-copyright"></i> 2020 HomeTask | All
+					Rights Reserved.
+				</p>
+				<p class="warning">
+					This is a school project. Resemblance to any real business or person
+					is unintended.
+				</p>
+			</div>
+		</div>
+	</div>
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+	</script>
+</body>
+
 </html>

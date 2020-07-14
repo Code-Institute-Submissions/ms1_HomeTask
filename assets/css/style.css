@@ -35,6 +35,8 @@ h6 {
   padding-top: 15px;
   color: black;
   text-shadow: 2px 2px 1px rgb(185, 167, 168);
+  text-align: center;
+
 }
 
 /* line divider styling */
@@ -306,23 +308,30 @@ img {
 
 /* contact.html specific styling starts here */
 
+.contact-section {
+    width: 40%;
+}
+
 .contact {
-  text-align: center;
   padding-top: 5px;
   height: 100vh;
   background-color: #fff;
   -webkit-box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
   box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .contact button {
   margin-top: 15px;
   margin-bottom: 15px;
-  width: 160px;
+  width: 160px; 
+ 
 }
 
 .contact form {
   padding: 15px;
+  text-align: left;
   -webkit-box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
   box-shadow: 0 5px 5px 2px rgb(185, 167, 168) inset;
 }
